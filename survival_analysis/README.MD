@@ -48,7 +48,7 @@ In medical studies, the event can be time to death, or the time between response
 ### logrank test
 The logrank test is used to test the null hypothesisthat there is no difference between the populations in the probability of an event (here a death) at any time point.
 ### Comparison
-$X^2 = {\sum_{i=1}^{g}} {(O_i-E_i)^2 \over  E_i}$
+$X^2 = \sum\limits_{i=1}^{g} {(O_i-E_i)^2 \over  E_i}$
 
 where $E_i$ represents the total expected number of events in the group $i$; $O_i$ represents the observed number of events in group $i$;
 
