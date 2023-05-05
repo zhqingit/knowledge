@@ -52,7 +52,7 @@ $X^2 = \sum\limits_{i=1}^{g} {(O_i-E_i)^2 \over  E_i}$
 
 where $E_i$ represents the total expected number of events in the group $i$; $O_i$ represents the observed number of events in group $i$;
 
-The value is compared to a $\chi^2$ distribution with ($g$-1) degrees of freedom, where $g$ is the number of groups.
+The value $X^2$ is compared to a $\chi^2$ distribution with ($g$-1) degrees of freedom, where $g$ is the number of groups.
 
 The $E_i$ can be caculated by firstly getting the event ratio using the data from all groups, then multiply the total patients in group $i$. See the example in paper<sup>2</sup>.
 ### Hazard ratio (HR)
