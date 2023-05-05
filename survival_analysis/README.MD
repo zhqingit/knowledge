@@ -9,7 +9,7 @@ Create date: 05/04/2023
 Last update: 05/05/2023
 
 ## Introduction
-These are about the notes of learning papers<sup>\[1,2,3,4\]</sup>,
+This is the note about learning papers<sup>\[1,2,3,4\]</sup>,
 
 ## Types of the 'event'
 In medical studies, the event can be time to death, or the time between response to treatment and recurrence or relpase-free survival time.
@@ -45,10 +45,10 @@ In medical studies, the event can be time to death, or the time between response
    The cumulative hazard $H(t)$ is defined as the integral of the hazard, or the area under the hazard function between times 0 and t because $h(t)$ is not easy to estiamte.
 
 ## Nonparametric tests comparing survival
-### logrand test
+### logrank test
 The logrank test is used to test the null hypothesisthat there is no difference between the populations in the probability of an event (here a death) at any time point.
 ### Comparison
-$X^2 = \sum_{i=1}^{g} {(O_i-E_i)^2 \over  E_i}$
+$X^2 = {\sum_{i=1}^{g}} {(O_i-E_i)^2 \over  E_i}$
 
 where $E_i$ represents the total expected number of events in the group $i$; $O_i$ represents the observed number of events in group $i$;
 
